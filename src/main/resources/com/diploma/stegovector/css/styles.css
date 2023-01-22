@@ -1,0 +1,30 @@
+
+Button{
+    -fx-background-color:  #E0AFA0;
+    -fx-border-radius: 5px;
+    -fx-text-fill: #463F3A;
+    -fx-font-size: 16px;
+    -fx-font-family: "Sitka Display";
+}
+
+Button:hover{
+    -fx-text-fill:  #463F3A;
+    /*-fx-border-color: #a16d57;*/
+    -fx-border-width: 1px;
+    -fx-background-color: #F4F3EE;
+    -fx-scale-y: 1.1;
+}
+
+Button:pressed{
+    -fx-background-color: #b9aea8;
+    -fx-text-fill: #F4F3EE;
+}
+
+
+#encodedFlag1, #encodedFlag2{
+    /*-fx-opacity: 0;*/
+    -fx-text-fill:  #463F3A;
+    -fx-background-color: #E0AFA0;
+}
+
+

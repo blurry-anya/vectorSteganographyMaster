@@ -1,0 +1,100 @@
+*{
+    -fx-font-family: "Sitka Display";
+}
+
+#header{
+    -fx-font-size: 20px;
+}
+
+.tabHeader{
+    -fx-font-size: 18px;
+    -fx-border-width: 0 0 1 0;
+    -fx-border-color: #463F3A;
+}
+
+
+.tab-pane .tab-header-area .tab-header-background{
+    -fx-background-color:  #BCB8B1;
+}
+
+.tab-pane .tab{
+    -fx-text-fill: #463F3A;
+    /*-fx-text-fill: #3E1929;*/
+    -fx-font-size: 14px;
+    -fx-font-family: "Sitka Text";
+    -fx-background-color: #d3c9ce;
+}
+
+.tab-pane .tab:selected{
+    -fx-background-color: #8A817C;
+    -fx-border-color: #3E1929;
+    -fx-border-width: 0px 0px 3px 0px;
+    -fx-background-insets: 0 0 0 0, 0, 0;
+}
+
+.tab-pane .tab:selected .tab-label{
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+
+}
+
+.tab:selected .focus-indicator{
+    -fx-border-width: 0.1px;
+    -fx-border-color: #a18793;
+}
+
+.GridPane .label{
+    -fx-font-size: 14px;
+    -fx-text-fill: #3E1929;
+    -fx-padding: 5 5 5 5;
+    -fx-alignment: center;
+    -fx-max-width: 65px;
+    -fx-min-width: 30px;
+}
+
+.GridPaneSpeed .label{
+    -fx-font-size: 14px;
+    -fx-text-fill: #3E1929;
+    -fx-padding: 5 5 5 5;
+    -fx-alignment: center;
+    -fx-max-width: 120px;
+    -fx-min-width: 30px;
+}
+
+.runExpBtn{
+    -fx-background-color:   #463F3A;
+    -fx-border-radius: 5px;
+    -fx-text-fill: #E0AFA0;
+    -fx-font-size: 16px;
+    -fx-font-family: "Sitka Display";
+    -fx-cursor: hand;
+}
+
+.runExpBtn:hover{
+    -fx-text-fill:  #463F3A;
+    /*-fx-border-color: #a16d57;*/
+    -fx-border-width: 1px;
+    -fx-background-color: #E0AFA0;
+    -fx-scale-y: 1.1;
+}
+
+.runExpBtn:pressed{
+    -fx-background-color: #b9aea8;
+    -fx-text-fill: #F4F3EE;
+}
+
+.radioBtnLeft, .radioBtnRight{
+    -fx-font-size: 15px;
+    -fx-cursor: hand;
+}
+
+.radioBtnRight{-fx-rotate:180; }
+.radioBtnRight > .text { -fx-rotate: 180; }
+
+
+.statusLabel, .updateTableLabel{
+    -fx-font-size: 14px;
+    -fx-alignment: center;
+    -fx-text-fill: #463F3A;
+}
+
