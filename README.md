@@ -19,17 +19,17 @@ Additional:
 In this project for GUI a JavaFX library was used.  
 The main window looks like following:
 - image is uploaded, message goes to the according text area
-![Main window - encoding](guiDemos\startWindowUploadedImg.jpg)
+![Main window - encoding](./guiDemos/startWindowUploadedImg.jpg)
 - image is decoded, obtained secret message is in the according text area
-![Main window - decoding](guiDemos\startWindowDecodedImg.jpg)
+![Main window - decoding](./guiDemos/startWindowDecodedImg.jpg)
 
 The experiments window looks like following:
 - initial view of the random chosen tab (before the experiment)
-![Experiments window - initial](guiDemos\expWindowInitial.jpg)
+![Experiments window - initial](./guiDemos/expWindowInitial.jpg)
 - a view of the random chosen tab (after the experiment)
-![Experiments window - performed experiment](guiDemos\expWindowRunExp.jpg)
+![Experiments window - performed experiment](./guiDemos/expWindowRunExp.jpg)
 - obtained time measures
-![Experiments window - obtained time measures](guiDemos\expWindowRunExpTimeMeasures.jpg)
+![Experiments window - obtained time measures](./guiDemos/expWindowRunExpTimeMeasures.jpg)
 
 *The point of experiments lays in getting the values of lost bits while applying different types of the affine transformations (for each set of parameters an affine transformation is applied 10 times - each time to previously changed container).*
 
