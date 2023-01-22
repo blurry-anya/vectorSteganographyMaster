@@ -15,7 +15,7 @@ Problems:
 Additional:
 - examples of recommended images-containers can be found in resources\com\diploma\stegovector\svgImages folder
 
-## SOME DESCRIPTION
+## APP DESCRIPTION
 In this project for GUI a JavaFX library was used.  
 The main window looks like following:
 - image is uploaded, message goes to the according text area
@@ -31,7 +31,7 @@ The experiments window looks like following:
 - obtained time measures
 ![Experiments window - obtained time measures](guiDemos\expWindowRunExpTimeMeasures.jpg)
 
-** The point of experiments lays in getting the values of lost bits while applying different types of the affine transformations (for each set of parameters an affine transformation is applied 10 times - each time to previously changed container) **
+*The point of experiments lays in getting the values of lost bits while applying different types of the affine transformations (for each set of parameters an affine transformation is applied 10 times - each time to previously changed container).*
 
 ## NOTE
 For any additional information you can get acquainted with my publications [here](https://www.scopus.com/authid/detail.uri?authorId=57208665914).
