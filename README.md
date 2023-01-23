@@ -19,18 +19,22 @@ Additional:
 In this project for GUI a JavaFX library was used.  
 The main window looks like following:
 - image is uploaded, message goes to the according text area
-![Main window - encoding](./guiDemos/startWindowUploadedImg.jpg)
-<img src="./guiDemos/startWindowUploadedImg.jpg" width="400" title="Main window - encoding"/>
+<!-- ![Main window - encoding](./guiDemos/startWindowUploadedImg.jpg) -->
+<img src="./guiDemos/startWindowUploadedImg.jpg" width="600" title="Main window - encoding"/>
 - image is decoded, obtained secret message is in the according text area
-![Main window - decoding](./guiDemos/startWindowDecodedImg.jpg)
+<!-- ![Main window - decoding](./guiDemos/startWindowDecodedImg.jpg) -->
+<img src="./guiDemos/startWindowDecodedImg.jpg" width="600" title="Main window - decoding"/>
 
 The experiments window looks like following:
 - initial view of the random chosen tab (before the experiment)
-![Experiments window - initial](./guiDemos/expWindowInitial.jpg)
+<!-- ![Experiments window - initial](./guiDemos/expWindowInitial.jpg) -->
+<img src="./guiDemos/expWindowInitial.jpg" width="600" title="Experiments window - initial"/>
 - a view of the random chosen tab (after the experiment)
-![Experiments window - performed experiment](./guiDemos/expWindowRunExp.jpg)
+<!-- ![Experiments window - performed experiment](./guiDemos/expWindowRunExp.jpg) -->
+<img src="./guiDemos/expWindowRunExp.jpg" width="600" title="Experiments window - performed experiment"/>
 - obtained time measures
-![Experiments window - obtained time measures](./guiDemos/expWindowRunExpTimeMeasures.jpg)
+<!-- ![Experiments window - obtained time measures](./guiDemos/expWindowRunExpTimeMeasures.jpg) -->
+<img src="./guiDemos/expWindowRunExpTimeMeasures.jpg" width="600" title="Experiments window - obtained time measures"/>
 
 *The point of experiments lays in getting the values of lost bits while applying different types of the affine transformations (for each set of parameters an affine transformation is applied 10 times - each time to previously changed container).*
 
