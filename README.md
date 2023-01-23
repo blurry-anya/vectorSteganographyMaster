@@ -20,6 +20,7 @@ In this project for GUI a JavaFX library was used.
 The main window looks like following:
 - image is uploaded, message goes to the according text area
 ![Main window - encoding](./guiDemos/startWindowUploadedImg.jpg)
+<img src="./guiDemos/startWindowUploadedImg.jpg" width="400" title="Main window - encoding"/>
 - image is decoded, obtained secret message is in the according text area
 ![Main window - decoding](./guiDemos/startWindowDecodedImg.jpg)
 
